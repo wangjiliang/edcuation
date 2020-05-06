@@ -1,0 +1,28 @@
+/* .article{
+	width: 1200px;
+	margin-bottom: 30px;
+}
+.article p>font{
+	color: #191919 !important;
+}
+.article p{
+	line-height: 28px;
+	background: #fff;
+	padding: 0 20px;
+}
+.article p:first-child{
+	height: 103px;
+	line-height: 103px;
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.article p:first-child+p{
+	padding-top: 20px;
+}
+.article p:first-child>font{
+	margin-left: -24px;
+}
+.article p:last-child{
+	padding-bottom: 20px;
+} */

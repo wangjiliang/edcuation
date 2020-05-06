@@ -1,0 +1,256 @@
+@charset 'utf-8';
+
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select {
+  margin: 0;
+  padding: 0
+}
+html,body,#app{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	background:  #F5F5F5;
+}
+
+a {
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cursor{
+	cursor: pointer;
+}
+
+a:visited, a:link {
+  list-style: none;
+  text-decoration: none;
+}
+
+li {
+  list-style: none
+}
+
+img {
+  border: 0;
+  vertical-align: middle
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+p {
+  word-wrap: break-word
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.lf {
+  float: left;
+}
+
+.rt {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.borderbox{
+  box-sizing: border-box;
+}
+
+input::-webkit-input-placeholder { /* WebKit browsers */
+  color: #999;
+}
+
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #999;
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #999;
+}
+/* 个人空间背景色 */
+.bg_Ps{
+	background:rgba(63,189,212,0.1);
+}
+.mtop20{
+	margin-top: 20px;
+}
+/* 中间内容padding值 */
+.grpad{
+	min-height: 100%;
+	padding: 100px 0px  0px 0px;
+	/* overflow: hidden; */
+}
+/* login中inpu框样式 */
+.loginFrom .el-input input{
+	background: transparent;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #D4D4D4;
+}
+.loginFrom .el-input__inner{
+	width: 283px;
+}
+.lofinSelect .el-checkbox__label{
+	font-size: 12px !important;
+	color:#666666 !important;
+}
+.lofinSelect .el-checkbox__input.is-checked .el-checkbox__inner{
+	background-color: rgba(110,174,212,1) !important;
+	border-color: rgba(110,174,212,1) !important;
+}
+.lofinSelect .el-checkbox__input.is-focus .el-checkbox__inner{
+	border-color: rgba(110,174,212,1) !important;
+}
+/* 个人空间修改密码弹窗 */
+.DialogBox .el-dialog{
+	width: 500px !important;
+}
+/* 个人空间上传头像 */
+.ModifyDataBox .el-dialog,
+.UploadDialog .el-dialog{
+	width: 500px !important;
+	overflow: hidden;
+}
+.ModifyDataBox .el-dialog__body,
+.UploadDialog .el-dialog__body{
+	padding: 0 !important;
+}
+.ModifyDataBox .avatar-uploader .el-upload,
+.UploadDialog .avatar-uploader .el-upload {
+	width: 120px;
+	height: 120px;
+	border: 1px dashed #d9d9d9;
+	border-radius: 50%;
+	cursor: pointer;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.ModifyDataBox .el-upload,
+.UploadDialog .el-upload{
+	display: block !important;
+}
+.ModifyDataBox .avatar-uploader .el-upload:hover,
+.UploadDialog .avatar-uploader .el-upload:hover {
+	border-color: #3FBDD4;
+}
+.ModifyDataBox .avatar-uploader-icon,
+.UploadDialog .avatar-uploader-icon {
+	font-size: 28px;
+	color: #8c939d;
+	/* width: 178px; */
+	/* height: 178px; */
+	line-height: 120px;
+	text-align: center;
+}
+.ModifyDataBox .avatar,
+.UploadDialog .avatar {
+	width: 178px;
+	height: 178px;
+	display: block;
+}
+/* 个人空间修改资料 */
+.ModifyDataBox .el-dialog{
+	width: 700px !important;
+}
+.ModifyDataBox .el-textarea__inner{
+	min-height: 150px !important;
+}
+/* 面包屑导航样式 */
+.crumbColor .el-breadcrumb__inner a, .crumbColor .el-breadcrumb__inner.is-link{
+	color: #fff;
+}
+.crumbColor .el-breadcrumb__inner.is-link:hover{
+	color: #fff !important;
+}
+.crumbColor .el-breadcrumb__item:last-child .el-breadcrumb__inner,
+.crumbColor .el-breadcrumb__item:last-child .el-breadcrumb__inner a,
+.crumbColor .el-breadcrumb__item:last-child .el-breadcrumb__inner a:hover,
+.crumbColor .el-breadcrumb__item:last-child .el-breadcrumb__inner:hover{
+	color: #bababa !important;
+}
+.el-breadcrumb__inner a:hover, .el-breadcrumb__inner.is-link:hover{
+	color: #303133;
+}
+.ModifyDataBox .el-select .el-input.is-focus .el-input__inner{
+	border-color: #3FBDD4 !important;
+}
+.ModifyDataBox .el-radio__input.is-checked .el-radio__inner{
+	background: #3FBDD4 !important;
+	border-color: #3FBDD4 !important;
+}
+.ModifyDataBox .el-radio__inner:hover{
+	border-color: #3FBDD4 !important;
+}
+.ModifyDataBox .el-radio__input.is-checked+.el-radio__label{
+	color: #3FBDD4 !important;
+}
+.el-button--primary{
+	background: #3FBDD4 !important;
+	border-color: #3FBDD4 !important;
+}
+/* .ModifyDataBox .el-button:hover{
+	color: #3FBDD4 !important;
+	border-color: #3FBDD4 !important;
+	background-color: #3FBDD4 !important;
+	opacity: 0.1;
+	color: #fff !important;
+} */
+/* 视频详情文字提示大小 */
+.size{
+	width: 400px !important;
+}

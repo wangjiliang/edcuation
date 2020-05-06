@@ -1,0 +1,89 @@
+
+.topic{
+  .more{
+    right: 378px;
+    bottom: 0;
+  }
+}
+
+.students-main{
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 41px;
+  margin-bottom: 32px;
+  background: rgba(239,250,253,1);
+  box-shadow:0px 0px 7px 1px rgba(2,138,201,0.2);
+  .top, .bottom {
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    .left{
+      width:268px;
+      height:56px;
+      color: #ffffff;
+      background:#3FBDD4;
+      border-top: 1px solid transparent;
+      box-shadow:0px 0px 7px 1px rgba(2,138,201,0.41);
+      border-radius:0px 28px 28px 0px;
+      text-align: center;
+      .fs24{ font-size: 24px; }
+      .fs16{ font-size: 16px;}
+    }
+    .right{
+      display: flex;
+      width: 242px;
+      justify-content: space-between;
+      .item {
+        width:74px;
+        height:40px;
+        line-height: 40px;
+        font-size: 18px;
+        color: #111111;
+        text-align: center;
+        border-radius:20px;
+        cursor: pointer;
+      }
+      
+      .active{
+        color: #ffffff;
+        background:rgba(63,189,212,1);
+        box-shadow:0px 0px 7px 1px rgba(2,138,201,0.41);
+      }
+    }
+  }
+  .bottom {
+    padding-left: 56px;
+    font-size: 18px;
+    color: #575757;
+    .container{
+      display: flex;
+      justify-content: space-between;
+    }
+    .on { 
+      background: #ffffff;
+      border:1px solid rgba(53,215,183,1);
+      box-shadow:0px 0px 7px 1px rgba(21,130,109,0.24); 
+    }
+    .bottom-item {
+      width:233px;
+      height:404px;
+      padding: 16px 11px;
+      text-align: center;
+      box-sizing: border-box;
+      img{
+        width:211px;
+        height:289px;
+        margin-bottom: 18px;
+      }
+      p { 
+        line-height: 2em;
+      }
+    }
+  }
+}

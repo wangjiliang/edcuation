@@ -1,0 +1,99 @@
+.fast-news{
+  background: #3FBDD4;
+	.mlf10{
+		margin-left: 10px;
+	}
+  .news-content{
+    width: 1200px;
+    margin: 0 auto;
+    .content-topic{
+      padding: 48px 10px 12px 16px;
+      color: #ffffff;
+      border-bottom: 3px solid #EEEEEE;
+      margin-bottom: 39px;
+    }
+    .main-content{
+      overflow: hidden;
+      padding-bottom: 28px;
+      .main-content-left{
+        float: left;
+        margin-left: 14px;
+        overflow: hidden;
+        color: #ffffff;
+        .main-content-left-top{
+          overflow: hidden;
+          .top-left-image{
+            width:264px;
+            height:145px;
+            float: left;
+            img{
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .top-right-text{
+            margin-left: 16px;
+            float: left;
+            max-width: 590px;
+            .title{
+              font-size: 24px;
+              line-height: 24px;
+							cursor: pointer;
+            }
+            .time {
+              font-size: 16px;
+              line-height: 16px;
+              margin-top: 15px;
+              margin-bottom: 19px;
+            }
+            .text {
+              font-size: 16px;
+            }
+          }
+        }
+        .main-content-left-bottom{
+          list-style-position: inside;
+          overflow: hidden;
+          width: 870px;
+          margin-top: 13px;
+          li{
+            font-size: 20px;
+            height: 40px;
+            line-height: 40px;
+            float: left;
+            width: 49%;
+            padding-right:20px;
+            box-sizing: border-box;
+			cursor: pointer;
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+          }
+        }
+      }
+      .main-content-right{
+        float: right;
+        margin-right: 22px;
+        .main-content-right-item{
+          width:113.5px;
+          height:170px;
+          color: #3198DE;
+          background:#ffffff;
+          border-radius:10px;
+          margin-bottom: 12px;
+          padding: 49px 0;
+          box-sizing: border-box;
+          .top{
+            height: 31px;
+            line-height: 31px;
+						margin-top: 10px;
+            .num { font-size: 31px; }
+            .unit{ font-size: 14px; }
+          }
+
+          .bottom{ font-size: 21px; line-height: 21px;}
+        }
+      }
+    }
+  }
+}

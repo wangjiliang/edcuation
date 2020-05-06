@@ -1,0 +1,75 @@
+.partner {
+	padding-bottom: 25px;
+	.head {
+		width: 100%;
+		height: 80px;
+		background: #3fbdd4;
+		padding: 0 16px;
+		box-sizing: border-box;
+		font-size: 16px;
+		color: #ffffff;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.title {
+			font-size: 24px;
+		}
+	}
+	.container {
+		padding: 14px 10px 17px 10px;
+		background: #fff;
+		box-shadow: 0px 3px 7px 0px rgba(169, 169, 169, 0.21);
+		.box {
+			display: flex;
+			width: 100%;
+			justify-content: space-between;
+			.leftbox {
+				width: 520px;
+				height: 350px;
+				background: url(../../assets/images/mapbg.png) no-repeat;
+				background-size: cover;
+				padding: 20px;
+				p {
+					display: flex;
+					height: 16px;
+					line-height: 27px;
+					text-indent: 2em;
+					font-size: 16px;
+					color: #fff;
+					justify-content: space-between;
+					margin-bottom: 20px;
+				}
+			}
+			.center {
+				width: 646px;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				.item {
+					width: 319px;
+					height: 170px;
+					position: relative;
+					&.mb10 {
+						margin-bottom: 10px;
+					}
+					img {
+						width: 100%;
+						height: 100%;
+					}
+					.desc {
+						width: 100%;
+						height: 32px;
+						line-height: 32px;
+						text-align: center;
+						color: #ffffff;
+						font-size: 14px;
+						position: absolute;
+						bottom: 0;
+						left: 0;
+						background: rgba(0, 0, 0, 0.5);
+					}
+				}
+			}
+		}
+	}
+}
